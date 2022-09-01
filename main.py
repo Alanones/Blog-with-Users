@@ -14,7 +14,8 @@ import os
 year = datetime.today().year
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('SECRET')
+app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+# app.config['SECRET_KEY'] = os.environ.get('SECRET')
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
